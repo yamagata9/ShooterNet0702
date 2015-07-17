@@ -283,9 +283,11 @@ GameObject:
   - 114: {fileID: 11446318}
   - 114: {fileID: 11446036}
   - 114: {fileID: 11429778}
+  - 114: {fileID: 11489902}
+  - 114: {fileID: 11499482}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1523,6 +1525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cntrlScript: {fileID: 11479804}
   camera: {fileID: 2069936}
+  audioL: {fileID: 0}
 --- !u!114 &11446036
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1588,6 +1591,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movSpeed: 7
   rotSpeed: 50
+--- !u!114 &11489902
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646587e295d7a064b8ac2fb62ea0bd97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11499482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ded8e2a59bbf16458b739872b57449c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camTransform: {fileID: 419014}
 --- !u!124 &12491578
 Behaviour:
   m_ObjectHideFlags: 1
