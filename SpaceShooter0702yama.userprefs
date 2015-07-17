@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\02.Scripts\DisableNetworkUnlocalplayerBehavior.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\Network-tute\Assets\Scripts\DisableNetworkUnlocalplayerBehavior2.cs">
     <Files>
-      <File FileName="Assets\02.Scripts\DisableNetworkUnlocalplayerBehavior.cs" Line="35" Column="6" />
+      <File FileName="..\Network-tute\Assets\Scripts\DisableNetworkUnlocalplayerBehavior2.cs" Line="4" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
